@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Typst
-        uses: lvignoli/typst-action@tentative
+        uses: lvignoli/typst-action@v1
         with:
           source_file: |
             main.typ
